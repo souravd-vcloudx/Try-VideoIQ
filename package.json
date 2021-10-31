@@ -1,10 +1,9 @@
 {
-  "name": "One-to-One-Video-Chat-Sample-Web-Application",
+  "name": "Video-Conference-Web-Sample-Application",
   "version": "1.0.1",
-  "description": "Sample Application to enable developers to understand how to build applications using EnableX Video API.",
+  "description": "Sample Application to enable developers to understand how to build applications using Video API.",
   "keywords": [
     "node",
-    "EnableX",
     "One-on-One"
   ],
   "main": "server.js",

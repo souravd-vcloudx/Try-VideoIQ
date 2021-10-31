@@ -78,7 +78,6 @@ app.use(bodyParser.urlencoded({ // to support URL-encoded bodies
 
 app.use(express.static('../public'));
 
-// Application Server Route Definitions - These functions communicate with EnableX Server API
 // Route: To get liist of all Rooms in your Application
 app.get('/api/get-all-rooms', (req, res) => {
   vcxroom.getAllRooms((data) => {
@@ -87,7 +86,6 @@ app.get('/api/get-all-rooms', (req, res) => {
   });
 });
 
-// Application Server Route Definitions - These functions communicate with EnableX Server API
 // Route: To get information of a given room.
 app.get('/api/get-room/:roomName', (req, res) => {
   const { roomName } = req.params;

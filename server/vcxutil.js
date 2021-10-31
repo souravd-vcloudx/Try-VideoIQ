@@ -15,7 +15,7 @@ const vcxutil = {};
 // Function: To create basic authentication header using APP ID and APP KEY
 vcxutil.getBasicAuthToken = () => btoa(`${process.env.VIDEO_APP_ID}:${process.env.VIDEO_APP_KEY}`);
 
-// Function: To connect to Enablex Server API Service
+// Function: To connect to Server API Service
 vcxutil.connectServer = (options, data, callback) => {
   logger.info(`REQ URI:- ${options.method} ${options.host}:${options.port}${options.path}`);
   logger.info(`REQ PARAM:- ${data}`);
